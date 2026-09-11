@@ -119,7 +119,7 @@
       const data = getLink();
       if (!data) return;
 
-      const pesan = `Kepada Yth. ${data.nama},\n\nTanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri perayaan Tasyakuran Wisuda saya:\n\n*Bintang Islami, S.Kom.*\nProgram Studi Sistem Informasi - Universitas Dharmas Indonesia\n\nUntuk detail acara lengkap, silakan buka tautan undangan berikut:\n${data.url}\n\nMerupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda berkenan hadir. Terima kasih!`;
+      const pesan = `Kepada Yth. ${data.nama},\n\nTanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri perayaan Wisuda saya:\n\n*M.Hasbu, S.Kom.*\nProgram Studi Sistem Informasi - Universitas Dharmas Indonesia\n\nUntuk detail acara lengkap, silakan buka tautan undangan berikut:\n${data.url}\n\nMerupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda berkenan hadir. Terima kasih!`;
 
       window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(pesan)}`, '_blank');
     }
